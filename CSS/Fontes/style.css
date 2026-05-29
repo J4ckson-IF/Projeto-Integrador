@@ -1,0 +1,42 @@
+/* FONTES E TIPOGRAFIAS */
+
+/*
+Propriedades Básicas:
+
+font-family: Define a família da fonte;
+font-size: Tamanho da Fonte (px, em, rem, %)
+color: Atribuindo uma cor ao 
+line-height: Altura das linhas (Espaçamento entre linhas)
+font-weight: Espessura do texto (normal, bold, semi-bold)
+*/
+
+body {
+    background-color: black;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #e11111;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Importando fonte do Google Fonts */
+.titulo {
+    font-family: "Inter", sans-serif;
+}
+
+/* Decoração e Transformação
+
+text-transform: Vai alterar o texto para
+Maiúsculo(uppercase) ou Minúsculo(lowercase)
+
+letter-spacing: Espaçamento horizontal entre as letras
+
+text-shadow: Aplica um efeito de sobra no texto
+*/
+
+.sub-titulo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #aaaa;
+}

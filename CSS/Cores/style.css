@@ -1,0 +1,56 @@
+/* CORES */
+
+/*
+Formatos de Cor
+
+color: red; [Tipo nome (in english)]
+color: #FF0000; [Tipo hexadecimal] (A-F e 0-9)
+color: rgb(255, 0, 0); [Tipo RGB]
+color: rgba(255, 0, 0, 0.5)
+// ou //                     [Tipo RGBA, RGB + Transparência(alpha)]
+color: rgb(255, 0, 0, 0.5); ^
+color: hsl(0, 100%, 50%) [Tipo HSL] (Cor, Saturação, Luminosidade)
+*/
+
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome {
+    color: red;
+}
+
+.hexadecimal {
+    color: #FF0000;
+}
+
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+    /* color: rgb(255, 0, 0, 0.5) // também funciona */
+    /* alpha = Transparência */
+    /* rgba = rgb + alpha */
+}
+
+.hsl {
+    color: hsl(0, 100%, 50%);
+}
+
+/*
+Cores de Fundo
+
+background-color: #f0f8ff;
+
+background: linear-gradient(to right, #0077CC, #00CCFF)/
+[linear-gradient: cria degradês horizantais, verticais ou diagonais]
+*/
+
+#cor-de-fundo {
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #0077CC, #00CCFF);
+}   
