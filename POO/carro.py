@@ -20,7 +20,10 @@ class Carro:
     # Método Frear
     def frear(self, reducao):
         # self.velocidade = self.velocidade - aumento 
-        self.velocidade -= reducao
+        if self.velocidade - reducao > 0:
+            self.velocidade -= reducao
+        else:
+            self.velocidade = 0
 
         print(f"O carro freou para {self.velocidade} km/h")
     
