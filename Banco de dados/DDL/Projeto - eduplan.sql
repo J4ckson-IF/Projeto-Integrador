@@ -96,3 +96,17 @@ CREATE TABLE atividades (
         REFERENCES series(id_serie)
 
 );
+
+SELECT * FROM professores
+WHERE nome = 4;
+
+UPDATE professores
+SET especialidade = 'Matemática'
+WHERE id_professor = 4;
+
+UPDATE cursos
+SET carga_horaria = 1400
+WHERE id_curso = 1;
+
+DELETE FROM disciplinas
+WHERE id_disciplina = 4;
