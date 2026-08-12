@@ -1,3 +1,7 @@
+-- Equipe Comércio : Topvendas
+-- Integrantes: Jackson Neto, Hevelyn Sousa, Wallyson Soares, Ana Clara Parrião e Jordanna dos Reis.
+-- Tema Escolhido: Comércio
+
 -- Tabela: Clientes
 INSERT INTO clientes (nome, email, telefone)
 VALUES

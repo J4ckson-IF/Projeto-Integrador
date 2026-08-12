@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(20, 22, 30);
+}
+
+/* Header */
+
+header img {
+    max-height: 100px;
+}
+
+/* Texto (incluindo links e etc) */
+
+h1 {
+    font-family: "Jetbrains Mono", monospace;
+    color: white;
+}
+
+h2 {
+    font-family: "Jetbrains Mono", monospace;
+    color: white;
+}
+
+p {
+    font-family: "Jetbrains Mono", monospace;
+    color: white;
+}
+
+a {
+    font-family: "Jetbrains Mono", monospace;
+    text-decoration: none;
+    color: rgb(245, 250, 255);
+}
+
+a:hover {
+    color: rgb(150, 200, 255);
+}

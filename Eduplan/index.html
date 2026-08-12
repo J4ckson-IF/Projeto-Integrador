@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduplan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        <header> é uma tag semântica: ela existe especificamente para marcar o cabeçalho do site.
+        class="header" conecta essa tag com o CSS.
+    -->
+    <header class="header">
+        <!--
+            Essa div é só um "envelope" interno, usado para limitar a largura do conteúdo
+            e organizar os itens com Flexbox
+        -->
+        <div class="header-inner">
+            <a href="#">
+                <img src="assets/eduplan-logo.png"
+                alt="Logo do Eduplan">
+                <h2 style="color: #1D4ED8;">Edu<span style="color: #16A34A;">Plan</span></h2>
+            </a>
+
+            <ul class="nav" id="nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Beneficios</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Depoimentos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+            <div class="actions">
+                <a href="#" class="btn btn-entrar">Entrar</a>
+                <a href="#" class="btn btn-cadastrar">Cadastrar</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
